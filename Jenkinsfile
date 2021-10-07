@@ -1,7 +1,7 @@
 
 pipeline {
   agent {
-  label "new node"
+  label "rajkumar"
 }
 stages {
     stage ('checkout') {
