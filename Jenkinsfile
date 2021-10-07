@@ -14,12 +14,6 @@ stages {
           sh 'cd /home/ubuntu; sudo mkdir avadutha4'
        }
     }
-    stage ('creation of the folder on different server') {
-      steps {
-        label ('slave')
-        
-        sh 'cd /home/ubuntu; sudo mkdir rohith4'
-        }
-    }
 }
 }
+  
